@@ -4,7 +4,7 @@
 read -p "Enter the version tag for this build: " VERSION_TAG
 
 # Define the image name
-IMAGE_NAME="daboortocker/library_website:$VERSION_TAG"
+IMAGE_NAME="daboortocker/library_management_system:$VERSION_TAG"
 
 # Build the Docker image
 docker build -t $IMAGE_NAME backend_server

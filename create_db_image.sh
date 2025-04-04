@@ -4,7 +4,7 @@
 read -p "Enter the version tag for this build: " VERSION_TAG
 
 # Define the image name
-IMAGE_NAME="daboortocker/library_website_db:$VERSION_TAG"
+IMAGE_NAME="daboortocker/library-management-system:$VERSION_TAG"
 # Check if the Dockerfile exists
 # Build the Docker image
 docker build -t $IMAGE_NAME db_server
